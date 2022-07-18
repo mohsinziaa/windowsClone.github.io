@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  overflow: hidden;
+  height: 100vh;
+  background: linear-gradient(to right, #000428 0%, #004e92 50%, #000428 100%);
+}
+
+.bgVideo {
+  height: 110%;
+  width: 100%;
+}
+
+video {
+  height: 100%;
+  width: 110%;
+}
+
+.icons {
+  position: absolute;
+  top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.icons img {
+  cursor: pointer;
+  height: 40px;
+  margin: 3px 20px;
+  width: 50px;
+  margin-top: 15px;
+}
+
+.icons span {
+  cursor: pointer;
+  color: whitesmoke;
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 2px 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+.startMenu {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: -570px;
+  transition: bottom 0.5s ease-in-out;
+}
+
+.startMenu img {
+  cursor: pointer;
+  height: 550px;
+  border-radius: 15px;
+}
+
+.taskBar {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #f3f3f3;
+  cursor: pointer;
+}
+
+.tbRight {
+  position: absolute;
+  right: 0px;
+  margin: 5px 0px;
+  height: 86%;
+}
